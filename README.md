@@ -36,7 +36,7 @@ Struktur program sudah dipisahkan dengan menggunakan packages (main, model, serv
 
 4. Ubah Reservasi
 
-- User memilih nomor reservasi dari daftar.
+  - User memilih nomor reservasi dari daftar.
 
   - Program menampilkan data lama → user bisa isi data baru (atau enter kosong jika tidak ingin diubah).
 
