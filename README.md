@@ -231,22 +231,21 @@ Program minta jam main.
 
 3. **Ubah Reservasi**
 
-  <img width="524" height="443" alt="image" src="https://github.com/user-attachments/assets/adcd9509-729a-44ba-bff4-feb0b47c5529" />
+ <img width="524" height="443" alt="image" src="https://github.com/user-attachments/assets/e2bcda78-a221-409d-a0b3-3d8d9f0ea680" />
 
 - Program minta input nomor reservasi yang mau diubah (berdasarkan daftar yang ditampilkan di menu 2).
 
-- Pilih Menu 1 sampai 5 
+- Pilih Menu 1 sampai 4 
+  Pilih data yang ingin diubah:
+    1. Nama
+    2. Tanggal
+    3. Jam
+    4. Durasi
 
 - Data reservasi lama ditampilkan dalam tanda kurung, lalu user bisa isi data baru.
 
-  - Nama Pemesan baru (Faudzan): diubah jadi irdhan.
-
-  - Tanggal baru (10-09-2025): diubah jadi 12-02-20245.
-
-  - Jam baru (19:00): diubah jadi 12:00.
-
-  - Durasi baru (2 jam, isi 0 jika tidak diubah): diubah jadi 9 jam.
-
+  - Nama Pemesan baru (Faudzan): diubah jadi ojan.
+  - 
 -Kalau user mengosongkan input (langsung enter), maka nilai lama tetap dipakai.
 Kalau user isi data baru → nilai langsung diperbarui.
 
@@ -256,16 +255,13 @@ Kalau user isi data baru → nilai langsung diperbarui.
 
 4. **Hapus reservasi**
 
-<img width="447" height="199" alt="image" src="https://github.com/user-attachments/assets/1ea9dc91-29f5-4bd1-8e09-fb3ea1fea793" />
+<img width="482" height="290" alt="image" src="https://github.com/user-attachments/assets/8a9d28f8-9f47-477b-9713-f916e367230c" />
 
-- Program minta input nomor reservasi yang mau dihapus (nomornya sesuai daftar di menu 2).
-→ di contoh ini user pilih 2.
+- Program minta input nomor reservasi yang mau dihapus
 
-- Program cek:
+- sebelum memilih, ada menampilkan list reservasinya
 
-  - Kalau nomor valid → data pada index tersebut dihapus dari ArrayList.
-
-  - Kalau nomor tidak valid → muncul pesan “Nomor tidak valid”.
+→ di contoh ini user pilih 1.
 
 - Setelah sukses, muncul pesan:
 “Reservasi berhasil dihapus!”
@@ -273,12 +269,13 @@ Kalau user isi data baru → nilai langsung diperbarui.
 
 5. **Keluar**
 
-<img width="441" height="176" alt="image" src="https://github.com/user-attachments/assets/73943499-c347-4469-97b5-4bab6f5770cd" />
+<img width="710" height="319" alt="image" src="https://github.com/user-attachments/assets/ff626887-de6b-4ba9-81ff-6ea046a6bd5f" />
+
 
 - User memilih angka 5 di menu utama.
 
 - Program langsung menjalankan perintah return; untuk menghentikan perulangan while(true).
 
 - Muncul pesan:
-“Terima kasih! Pr
+“Terima kasih! Program Selsai."
 
