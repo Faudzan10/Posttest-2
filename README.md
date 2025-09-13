@@ -237,17 +237,18 @@ Program minta jam main.
 
 - Pilih Menu 1 sampai 4 
   Pilih data yang ingin diubah:
-    1. Nama
-    2. Tanggal
-    3. Jam
-    4. Durasi
+    - Nama
+    - Tanggal
+    - Jam
+    - Durasi
 
 - Data reservasi lama ditampilkan dalam tanda kurung, lalu user bisa isi data baru.
 
-  - Nama Pemesan baru (Faudzan): diubah jadi ojan.
-  - 
+- Nama Pemesan baru (Faudzan): diubah jadi ojan.
+    
 -Kalau user mengosongkan input (langsung enter), maka nilai lama tetap dipakai.
-Kalau user isi data baru → nilai langsung diperbarui.
+
+- Kalau user isi data baru → nilai langsung diperbarui.
 
 - Setelah semua input selesai, program update objek Reservasi di dalam ArrayList.
 → muncul pesan “Reservasi berhasil diubah!”.
