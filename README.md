@@ -181,4 +181,104 @@ Jadi alurnya sederhana: program jalan → tampilkan menu → user pilih → prog
 
 **Output**
 
+1. **Tambah Reservasi**
+   
+<img width="502" height="257" alt="image" src="https://github.com/user-attachments/assets/34ac63a6-37e7-4fd2-afda-ca5d59f3d164" />
+
+- Program selalu menampilkan menu utama karena ada while(true).
+
+- User memasukkan angka 1 → artinya memilih Tambah Reservasi.
+
+- Program minta nama pemesan.
+
+- Kalau kosong → muncul pesan error “Nama tidak boleh kosong!” dan diminta ulang.
+
+- Di sini user mengisi Faudzan 
+
+- Program minta tanggal.
+
+- Kalau kosong → muncul pesan “Tanggal tidak boleh kosong!”.
+
+- User mengisi 12-09-2025.
+Program minta jam main.
+
+- Kalau kosong → muncul pesan “Jam tidak boleh kosong!”.
+
+- User mengisi 19:00.
+
+- Program minta durasi main (dalam jam).
+
+- Kalau input bukan angka → muncul pesan “Durasi harus berupa angka!”.
+
+- Kalau ≤ 0 → muncul pesan “Durasi harus lebih dari 0!”.
+
+- User mengisi 2 
+
+- Program membuat objek baru Reservasi → menyimpan data Faudzan | 10-09-2025 | 19:00 | 2 jam.
+
+
+*Contoh jika mengisi dengan jawaban kosong*
+
+<img width="492" height="436" alt="image" src="https://github.com/user-attachments/assets/eed86933-6a62-431e-80ee-4d47a25fd84b" />
+
+
+2. **Lihat Reservasi**
+   
+<img width="508" height="243" alt="image" src="https://github.com/user-attachments/assets/e16a8d92-1fa0-49d4-8edf-7717dc2f6ebb" />
+
+- Jadi menu ini berfungsi untuk melihat semua data yang sudah ditambahkan ke sistem, sehingga user bisa mengecek kembali jadwal reservasi mereka.
+
+
+3. **Ubah Reservasi**
+
+  <img width="524" height="443" alt="image" src="https://github.com/user-attachments/assets/adcd9509-729a-44ba-bff4-feb0b47c5529" />
+
+- Program minta input nomor reservasi yang mau diubah (berdasarkan daftar yang ditampilkan di menu 2).
+
+- Pilih Menu 1 sampai 5 
+
+- Data reservasi lama ditampilkan dalam tanda kurung, lalu user bisa isi data baru.
+
+  - Nama Pemesan baru (Faudzan): diubah jadi irdhan.
+
+  - Tanggal baru (10-09-2025): diubah jadi 12-02-20245.
+
+  - Jam baru (19:00): diubah jadi 12:00.
+
+  - Durasi baru (2 jam, isi 0 jika tidak diubah): diubah jadi 9 jam.
+
+-Kalau user mengosongkan input (langsung enter), maka nilai lama tetap dipakai.
+Kalau user isi data baru → nilai langsung diperbarui.
+
+- Setelah semua input selesai, program update objek Reservasi di dalam ArrayList.
+→ muncul pesan “Reservasi berhasil diubah!”.
+
+
+4. **Hapus reservasi**
+
+<img width="447" height="199" alt="image" src="https://github.com/user-attachments/assets/1ea9dc91-29f5-4bd1-8e09-fb3ea1fea793" />
+
+- Program minta input nomor reservasi yang mau dihapus (nomornya sesuai daftar di menu 2).
+→ di contoh ini user pilih 2.
+
+- Program cek:
+
+  - Kalau nomor valid → data pada index tersebut dihapus dari ArrayList.
+
+  - Kalau nomor tidak valid → muncul pesan “Nomor tidak valid”.
+
+- Setelah sukses, muncul pesan:
+“Reservasi berhasil dihapus!”
+
+
+5. **Keluar**
+
+<img width="441" height="176" alt="image" src="https://github.com/user-attachments/assets/73943499-c347-4469-97b5-4bab6f5770cd" />
+
+- User memilih angka 5 di menu utama.
+
+- Program langsung menjalankan perintah return; untuk menghentikan perulangan while(true).
+
+- Muncul pesan:
+“Terima kasih! Pr
 
